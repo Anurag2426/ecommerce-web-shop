@@ -36,7 +36,7 @@ app.use('/api/v1/product',productRoutes)
 
 // rest api
 app.use("*",function(req,res){
-    res.sendFile(path.join(__dirname,'C:/Users/HP/Downloads/myfirst-dynamic-website-main/myfirst-dynamic-website-main/client/build/index.html'));
+    res.sendFile(path.join(__dirname,'./client/build/index.html'));
 })
 
 
